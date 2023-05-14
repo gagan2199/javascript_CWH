@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Manipulating DOM</title>
+    <style>
+        .container
+        {
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <div id="main" class="container">
+        <ul id="nav">
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>More About Us</li>
+            <li>Contact Us</li><br>
+            <p>para start from here</p>
+        </ul>
+    </div>
+    <div class="containers">
+        Another Container
+    </div>
+    <script>
+       var a;
+       a=document.getElementById("nav");
+       //nav.innerhtml= <li> change by innerhtml</li>
+       var b= document.querySelector(".container")
+       var c= document.querySelector("#nav>li")
+       var d= document.querySelectorAll("#nav>li")
+       console.log(a);
+       console.log(b);
+       console.log(c);
+       console.log(d);
+    </script>
+</body>
+</html>
