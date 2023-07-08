@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>events</title>
+</head>
+<body>
+    <p id="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eaque quae accusantium distinctio et sequi repudiandae quis, culpa soluta, illum aut nobis amet corporis possimus ipsum quidem labore vero. Deleniti amet nesciunt modi excepturi.
+    </p>
+    <button id="btn">show/hide</button>
+    <script>
+        let para= document.getElementById('para');
+        para.addEventListener('mouseout',function run()
+        {
+            alert("mouse is going out");
+            // console.log("mouse is going out");
+        })
+
+        let btn=document.getElementById('btn');
+        btn.addEventListener('onclick',function kro(){
+           
+            if (para.style.display!='none')
+            para.style.display='none';
+            else
+            {
+                para.style.display='block';
+            }
+        })
+    </script>
+</body>
+</html>
