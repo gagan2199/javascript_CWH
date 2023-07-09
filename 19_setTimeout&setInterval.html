@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setTimeout & setInterval</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta reprehenderit maiores temporibus ad ducimus.</p>
+    <script>
+        
+        function greet(name)
+        {
+            console.log("good morning " + name)
+        }
+
+        greet("Gagan");
+
+    //    timeOut= setTimeout(greet,3000,"Gagan Kumar");
+    //    console.log(timeOut);
+
+    //    clearTimeout(timeOut);
+
+    //    timeInterval= setInterval(greet,1000,"GAGAN");
+    //    console.log(timeInterval);
+    //    clearInterval(timeInterval);
+
+          function displayTime()
+          {
+            time= new Date();
+            console.log(time);
+          }
+
+         timeInterval= setInterval(displayTime,1000);
+        //  clearInterval(timeInterval);
+
+
+    </script>
+</body>
+</html>
