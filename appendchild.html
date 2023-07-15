@@ -12,7 +12,13 @@
         let conatiner= document.getElementsByClassName('container');
         let celement= document.createElement('p');
         celement.innerHTML= "this is inner html";
+
+        let belement= document.createElement('b');
+        belement.innerHTML="this is bold";
+
          conatiner[0].appendChild(celement);
+
+         conatiner[0].replaceChild(belement,celement);
     </script>
 </body>
 </html>
