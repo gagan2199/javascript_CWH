@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>append child</title>
+</head>
+<body>
+    <div class="container">this is container</div>
+
+    <script>
+        let conatiner= document.getElementsByClassName('container');
+        let celement= document.createElement('p');
+        celement.innerHTML= "this is inner html";
+         conatiner[0].appendChild(celement);
+    </script>
+</body>
+</html>
