@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+        }
+
+        #menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            position: relative;
+        
+        }
+
+        .ul1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            list-style: none;
+
+
+        }
+
+        .ul1 li {
+            margin: 5px 30px;
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+
+        }
+
+        .ul1 li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #dn {
+            color: white;
+            background-color: black;
+        }
+
+        #menu {
+            background-color: rgb(158, 76, 76);
+        }
+
+        div {
+            font-weight: bolder;
+            font-size: 20px;
+        }
+
+        .ul1 li a:hover {
+            color: rgb(14, 13, 13);
+        }
+
+        .ul1 li:hover .dd ul {
+            display: block;
+            position: absolute;
+            top: 1.60rem;
+            right: 4.4rem;
+            /* margin: 10px; */
+            width: 150px;
+
+           
+            background-color: rgb(219, 12, 12);
+        }
+
+        .dd ul {
+            margin: 0 2px;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="menu">
+        <div>Drop<span id="dn">Down</span></div>
+        <ul class="ul1">
+            <li class="lii"><a href="#">Menu</a></li>
+            <li><a href="#">About <i class="fas fa-caret-down"></i></a>
+                <div class="dd">
+                    <ul>
+                        <li><a href="#">company</a></li>
+                        <li><a href="#">Employee</a></li>
+                        <li><a href="#">faq</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Help</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
