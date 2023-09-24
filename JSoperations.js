@@ -58,3 +58,10 @@ let reduc=a.reduce((a,b)=>
 })
 
 console.log(reduc);
+
+let mapa=a.map((element)=>
+{
+    return element+1;
+});
+
+console.log(mapa);
