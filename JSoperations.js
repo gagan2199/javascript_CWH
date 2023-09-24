@@ -47,8 +47,14 @@ console.log(rev);
 let a = [1, 2, 3, 4, 5, 6, 7, 8];
 
 let fa= a.filter((a) => {
-  return a > 5
+  return a > 5;
 });
 
 console.log(fa);
 
+let reduc=a.reduce((a,b)=>
+{
+    return a+b;
+})
+
+console.log(reduc);
