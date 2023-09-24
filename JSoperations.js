@@ -2,7 +2,7 @@ let nam = "gagan";
 
 console.log(nam);
 
-nam[0] = "G";
+nam[0] = "G";    // can't be used this
 
 console.log(nam);
 
