@@ -40,7 +40,7 @@ console.log(slc);
 
 let c=[10,20,30,40,50];
 
-let rev=c.reverse();       // rev is for array
+let rev=c.reverse();       // rev is for array     string is not affected
 
 console.log(rev);
 
