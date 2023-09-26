@@ -31,16 +31,24 @@ let ans3=x+y;
 let ans4=ans3.toString()
 console.log(ans4);
 
-let ca=[];
+let final_ans=[];
 for(let k=(ans4.length)-1;k>=0;k--)
 {
     e=`${ans4[k]}`;
 
     let p=parseInt(e);
-    ca.push(p);
+    final_ans.push(p);
 
 }
-console.log(ca);
+console.log(final_ans);
+
+
+
+
+
+
+
+
 
 // console.log(ans1);
 // console.log(ans2);
