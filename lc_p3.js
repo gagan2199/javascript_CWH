@@ -13,12 +13,13 @@ function ss(s) {
                {
                    if(s[j]!=s[j+1])
                    count=count+1;
+                   if (count>ans)
+                   {
+                       ans=count;
+                   }
                }
                
-               if (count>ans)
-               {
-                   ans=count;
-               }
+              
                j++;
            }
                count=0;
