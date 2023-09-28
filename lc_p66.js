@@ -27,7 +27,7 @@ let digits=[];
 let n=prompt("enter the number of members");
 for(let i=0;i<n;i++)
 {
-    digits[i]=prompt("enter the value of member");
+    digits[i]=prompt("enter the value of member of array");
 }
 
 console.log(digits);
