@@ -1,5 +1,5 @@
 
-var plusOne = function(digits) {
+function plusOne(digits) {
     var len =  digits.length;
        var num;
        var add = 1;
@@ -19,6 +19,7 @@ var plusOne = function(digits) {
        }
 
        digits.unshift(1);
+       console.log(digits);
        return digits;
 };
 
@@ -29,7 +30,9 @@ for(let i=0;i<n;i++)
     digits[i]=prompt("enter the value of member");
 }
 
-
 console.log(digits);
 
-console.log(plusOne);
+let ans=plusOne(digits);
+
+
+console.log(ans);
