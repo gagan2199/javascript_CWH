@@ -10,3 +10,8 @@ function removeElement(nums, val) {
     }
     return count;
 }
+
+let a=[1,2,3,4,5];
+let b=removeElement(a);
+
+console.log(b);
