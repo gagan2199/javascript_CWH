@@ -45,9 +45,9 @@ function lol2(str)
 {
     let l= (str.length)-1;
 
-    let str1=str.trim();
+    let str1=str.trim();                 // will remove all extra spaces
 
-    let arr= str1.split(" ");
+    let arr= str1.split(" ");             //will return new array
 
     return arr[(arr.length)-1].length;
 
