@@ -13,5 +13,5 @@ function rs (s) {
 };
 
 s = ["h","e","l","l","o"];
-ss=["a","b","c","d"];
+ss=["a","b","c","d","e"];
 rs(s);
